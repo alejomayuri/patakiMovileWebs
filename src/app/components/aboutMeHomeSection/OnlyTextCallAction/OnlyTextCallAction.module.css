@@ -1,0 +1,57 @@
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.text__container {
+    margin: 8px 8px 0 8px;
+    background-color: #997d60;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.text__container > div {
+    margin-bottom: 20px;
+}
+
+.text__container > div > h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0px 0px 2px rgb(0 0 0);
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.text__container > div > span {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-shadow: 0px 0px 2px rgb(0 0 0);
+}
+
+.text__container > p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}
+
+.text__container > span {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 16px;
+}
+
+.text__container > span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
