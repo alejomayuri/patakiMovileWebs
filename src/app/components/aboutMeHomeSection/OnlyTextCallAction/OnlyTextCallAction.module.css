@@ -51,6 +51,12 @@
     margin-top: 16px;
 }
 
+.text__container > span > a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
 .text__container > span:hover {
     cursor: pointer;
     text-decoration: underline;
